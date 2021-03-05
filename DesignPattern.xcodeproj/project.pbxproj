@@ -53,6 +53,7 @@
 		73C99A4825F1244B008E2E25 /* GBAImplementor.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C99A4725F1244A008E2E25 /* GBAImplementor.m */; };
 		73C99A5325F12E34008E2E25 /* PSPImplementtor.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C99A5225F12E34008E2E25 /* PSPImplementtor.m */; };
 		73C99A5925F12E47008E2E25 /* PSPSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C99A5825F12E47008E2E25 /* PSPSystem.m */; };
+		73C99B7825F1E440008E2E25 /* Target_DesignPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C99B7725F1E440008E2E25 /* Target_DesignPattern.m */; };
 		927B812297B7F27DC1FA37DA /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3379F5CA8180BB4A0176FC /* DemoViewController.swift */; };
 		F03B1AB4255B06672D6E62A6 /* Target_DesignPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF7028F333E4146AC9497EE /* Target_DesignPattern.swift */; };
 		F1A1B2081249F1A18E8B6D10 /* Pods_DesignPattern.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29EE4D5B0908CA9E07F3F57A /* Pods_DesignPattern.framework */; };
@@ -176,6 +177,8 @@
 		73C99A5225F12E34008E2E25 /* PSPImplementtor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSPImplementtor.m; sourceTree = "<group>"; };
 		73C99A5725F12E47008E2E25 /* PSPSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSPSystem.h; sourceTree = "<group>"; };
 		73C99A5825F12E47008E2E25 /* PSPSystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSPSystem.m; sourceTree = "<group>"; };
+		73C99B7625F1E440008E2E25 /* Target_DesignPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_DesignPattern.h; sourceTree = "<group>"; };
+		73C99B7725F1E440008E2E25 /* Target_DesignPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_DesignPattern.m; sourceTree = "<group>"; };
 		849C408F6CADCAB279038276 /* DesignPattern.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = DesignPattern.podspec; path = ../DesignPattern.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DF7028F333E4146AC9497EE /* Target_DesignPattern.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Target_DesignPattern.swift; path = Source/Target/Target_DesignPattern.swift; sourceTree = "<group>"; };
 		C1D424BE0AC169622BAC3FB2 /* DesignPattern_Extension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = DesignPattern_Extension.podspec; path = ../DesignPattern_Extension.podspec; sourceTree = "<group>"; };
@@ -292,6 +295,7 @@
 		73C98F7325EF8534008E2E25 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				73C99BB525F1E79E008E2E25 /* Targets */,
 				73C9927325EF85CA008E2E25 /* 对象创建 */,
 				73C9943325EF8DA8008E2E25 /* 接口适配 */,
 				73C993FB25EF8DA6008E2E25 /* 抽象集合 */,
@@ -678,6 +682,15 @@
 			path = Abstract;
 			sourceTree = "<group>";
 		};
+		73C99BB525F1E79E008E2E25 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				73C99B7625F1E440008E2E25 /* Target_DesignPattern.h */,
+				73C99B7725F1E440008E2E25 /* Target_DesignPattern.m */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
 		951892DA452C01679CBEC466 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -914,6 +927,7 @@
 				73C992B325EF85CA008E2E25 /* AbstractFactoryDemo.m in Sources */,
 				73C994C125EF8DAB008E2E25 /* NormalModel.m in Sources */,
 				73C994C525EF8DAB008E2E25 /* BusinessCardView.m in Sources */,
+				73C99B7825F1E440008E2E25 /* Target_DesignPattern.m in Sources */,
 				927B812297B7F27DC1FA37DA /* DemoViewController.swift in Sources */,
 				73C992BB25EF85CB008E2E25 /* Prototype_Student.m in Sources */,
 				73C992BC25EF85CB008E2E25 /* Prototype_bussiness.m in Sources */,

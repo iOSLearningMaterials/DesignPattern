@@ -14,11 +14,11 @@
 }
 
 - (void)command_O {
-    
+    NSLog(@"PSPSystem --- command_O");
 }
 
 - (void)command_X {
-    
+    NSLog(@"PSPSystem --- command_X");
 }
 
 @end
