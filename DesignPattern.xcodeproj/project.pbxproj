@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		6B0B08B76CD6350BB88B6478 /* DesignPattern_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AA7E9E48C0D60BFCD9047F /* DesignPattern_Extension.swift */; };
+		730EFCFF25FB0D6C009725A1 /* DesignNameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 730EFCFD25FB0D6C009725A1 /* DesignNameCell.m */; };
+		730EFD0025FB0D6C009725A1 /* DesignNameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 730EFCFE25FB0D6C009725A1 /* DesignNameCell.xib */; };
+		73B3669525F91A8D00B7134E /* LinkListIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B3669425F91A8D00B7134E /* LinkListIterator.m */; };
+		73B9A4EC25FA5C96005CCBFF /* ObserverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B9A4EB25FA5C96005CCBFF /* ObserverViewController.m */; };
+		73B9A4F225FA5CAB005CCBFF /* SubscriptionServiceCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B9A4F125FA5CAB005CCBFF /* SubscriptionServiceCenter.m */; };
 		73C98DD925EE1A4F008E2E25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C98DD825EE1A4F008E2E25 /* AppDelegate.m */; };
 		73C98DDC25EE1A4F008E2E25 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C98DDB25EE1A4F008E2E25 /* SceneDelegate.m */; };
 		73C98DDF25EE1A4F008E2E25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C98DDE25EE1A4F008E2E25 /* ViewController.m */; };
@@ -54,6 +59,10 @@
 		73C99A5325F12E34008E2E25 /* PSPImplementtor.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C99A5225F12E34008E2E25 /* PSPImplementtor.m */; };
 		73C99A5925F12E47008E2E25 /* PSPSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C99A5825F12E47008E2E25 /* PSPSystem.m */; };
 		73C99B7825F1E440008E2E25 /* Target_DesignPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C99B7725F1E440008E2E25 /* Target_DesignPattern.m */; };
+		73E7AA3525F7C16A003F552D /* IteratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E7AA3425F7C16A003F552D /* IteratorViewController.m */; };
+		73E7AA3C25F7C1B1003F552D /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E7AA3B25F7C1B1003F552D /* CustomView.m */; };
+		73E7AA4525F7C3EB003F552D /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E7AA4425F7C3EB003F552D /* LinkedList.m */; };
+		73E7AA4B25F7C403003F552D /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E7AA4A25F7C403003F552D /* Node.m */; };
 		927B812297B7F27DC1FA37DA /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3379F5CA8180BB4A0176FC /* DemoViewController.swift */; };
 		F03B1AB4255B06672D6E62A6 /* Target_DesignPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF7028F333E4146AC9497EE /* Target_DesignPattern.swift */; };
 		F1A1B2081249F1A18E8B6D10 /* Pods_DesignPattern.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29EE4D5B0908CA9E07F3F57A /* Pods_DesignPattern.framework */; };
@@ -81,6 +90,16 @@
 		1F909370B88709470E62DA08 /* Pods-DesignPattern.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignPattern.release.xcconfig"; path = "Target Support Files/Pods-DesignPattern/Pods-DesignPattern.release.xcconfig"; sourceTree = "<group>"; };
 		29EE4D5B0908CA9E07F3F57A /* Pods_DesignPattern.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesignPattern.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3379F5CA8180BB4A0176FC /* DemoViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DemoViewController.swift; path = Source/DemoViewController.swift; sourceTree = "<group>"; };
+		730EFCFC25FB0D6C009725A1 /* DesignNameCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignNameCell.h; sourceTree = "<group>"; };
+		730EFCFD25FB0D6C009725A1 /* DesignNameCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignNameCell.m; sourceTree = "<group>"; };
+		730EFCFE25FB0D6C009725A1 /* DesignNameCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DesignNameCell.xib; sourceTree = "<group>"; };
+		73B3669325F91A8D00B7134E /* LinkListIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkListIterator.h; sourceTree = "<group>"; };
+		73B3669425F91A8D00B7134E /* LinkListIterator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkListIterator.m; sourceTree = "<group>"; };
+		73B9A4EA25FA5C96005CCBFF /* ObserverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObserverViewController.h; sourceTree = "<group>"; };
+		73B9A4EB25FA5C96005CCBFF /* ObserverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObserverViewController.m; sourceTree = "<group>"; };
+		73B9A4F025FA5CAB005CCBFF /* SubscriptionServiceCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubscriptionServiceCenter.h; sourceTree = "<group>"; };
+		73B9A4F125FA5CAB005CCBFF /* SubscriptionServiceCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubscriptionServiceCenter.m; sourceTree = "<group>"; };
+		73B9A4F625FA5DC3005CCBFF /* SubscriptionServiceCenterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubscriptionServiceCenterProtocol.h; sourceTree = "<group>"; };
 		73C98DD425EE1A4F008E2E25 /* DesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73C98DD725EE1A4F008E2E25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		73C98DD825EE1A4F008E2E25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -179,6 +198,15 @@
 		73C99A5825F12E47008E2E25 /* PSPSystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSPSystem.m; sourceTree = "<group>"; };
 		73C99B7625F1E440008E2E25 /* Target_DesignPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_DesignPattern.h; sourceTree = "<group>"; };
 		73C99B7725F1E440008E2E25 /* Target_DesignPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_DesignPattern.m; sourceTree = "<group>"; };
+		73E7AA3325F7C16A003F552D /* IteratorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IteratorViewController.h; sourceTree = "<group>"; };
+		73E7AA3425F7C16A003F552D /* IteratorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IteratorViewController.m; sourceTree = "<group>"; };
+		73E7AA3925F7C17A003F552D /* IteratorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IteratorProtocol.h; sourceTree = "<group>"; };
+		73E7AA3A25F7C1B1003F552D /* CustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		73E7AA3B25F7C1B1003F552D /* CustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		73E7AA4325F7C3EB003F552D /* LinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		73E7AA4425F7C3EB003F552D /* LinkedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedList.m; sourceTree = "<group>"; };
+		73E7AA4925F7C403003F552D /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		73E7AA4A25F7C403003F552D /* Node.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
 		849C408F6CADCAB279038276 /* DesignPattern.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = DesignPattern.podspec; path = ../DesignPattern.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DF7028F333E4146AC9497EE /* Target_DesignPattern.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Target_DesignPattern.swift; path = Source/Target/Target_DesignPattern.swift; sourceTree = "<group>"; };
 		C1D424BE0AC169622BAC3FB2 /* DesignPattern_Extension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = DesignPattern_Extension.podspec; path = ../DesignPattern_Extension.podspec; sourceTree = "<group>"; };
@@ -261,6 +289,9 @@
 				73C98DDB25EE1A4F008E2E25 /* SceneDelegate.m */,
 				73C98DDD25EE1A4F008E2E25 /* ViewController.h */,
 				73C98DDE25EE1A4F008E2E25 /* ViewController.m */,
+				730EFCFC25FB0D6C009725A1 /* DesignNameCell.h */,
+				730EFCFD25FB0D6C009725A1 /* DesignNameCell.m */,
+				730EFCFE25FB0D6C009725A1 /* DesignNameCell.xib */,
 				73C98DE025EE1A4F008E2E25 /* Main.storyboard */,
 				73C98DE325EE1A52008E2E25 /* Assets.xcassets */,
 				73C98DE525EE1A52008E2E25 /* LaunchScreen.storyboard */,
@@ -494,6 +525,17 @@
 		73C993FD25EF8DA6008E2E25 /* 迭代器 */ = {
 			isa = PBXGroup;
 			children = (
+				73E7AA3325F7C16A003F552D /* IteratorViewController.h */,
+				73E7AA3425F7C16A003F552D /* IteratorViewController.m */,
+				73E7AA3925F7C17A003F552D /* IteratorProtocol.h */,
+				73B3669325F91A8D00B7134E /* LinkListIterator.h */,
+				73B3669425F91A8D00B7134E /* LinkListIterator.m */,
+				73E7AA3A25F7C1B1003F552D /* CustomView.h */,
+				73E7AA3B25F7C1B1003F552D /* CustomView.m */,
+				73E7AA4925F7C403003F552D /* Node.h */,
+				73E7AA4A25F7C403003F552D /* Node.m */,
+				73E7AA4325F7C3EB003F552D /* LinkedList.h */,
+				73E7AA4425F7C3EB003F552D /* LinkedList.m */,
 			);
 			path = "迭代器";
 			sourceTree = "<group>";
@@ -510,6 +552,11 @@
 		73C9941F25EF8DA7008E2E25 /* 观察者 */ = {
 			isa = PBXGroup;
 			children = (
+				73B9A4EA25FA5C96005CCBFF /* ObserverViewController.h */,
+				73B9A4EB25FA5C96005CCBFF /* ObserverViewController.m */,
+				73B9A4F625FA5DC3005CCBFF /* SubscriptionServiceCenterProtocol.h */,
+				73B9A4F025FA5CAB005CCBFF /* SubscriptionServiceCenter.h */,
+				73B9A4F125FA5CAB005CCBFF /* SubscriptionServiceCenter.m */,
 			);
 			path = "观察者";
 			sourceTree = "<group>";
@@ -821,6 +868,7 @@
 			files = (
 				73C98DE725EE1A53008E2E25 /* LaunchScreen.storyboard in Resources */,
 				73C98DE425EE1A52008E2E25 /* Assets.xcassets in Resources */,
+				730EFD0025FB0D6C009725A1 /* DesignNameCell.xib in Resources */,
 				73C98DE225EE1A4F008E2E25 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -892,13 +940,17 @@
 				73C992BD25EF85CB008E2E25 /* Prototype_BaseCopyObject.m in Sources */,
 				73C992C025EF85CB008E2E25 /* Wheel.m in Sources */,
 				73C994C025EF8DAB008E2E25 /* AdapterViewController.m in Sources */,
+				73E7AA4525F7C3EB003F552D /* LinkedList.m in Sources */,
 				73C992BA25EF85CB008E2E25 /* BasePhone.m in Sources */,
+				73B9A4F225FA5CAB005CCBFF /* SubscriptionServiceCenter.m in Sources */,
 				73C99A5925F12E47008E2E25 /* PSPSystem.m in Sources */,
 				73C992BF25EF85CB008E2E25 /* Prototype_CopyObject2.m in Sources */,
 				73C994C225EF8DAB008E2E25 /* NormalModel2Adapter.m in Sources */,
 				73C992B225EF85CA008E2E25 /* BaseFactory.m in Sources */,
 				73C992B425EF85CA008E2E25 /* FactoryManager.m in Sources */,
 				73C9967F25EFD546008E2E25 /* BridgeViewController.m in Sources */,
+				73E7AA3525F7C16A003F552D /* IteratorViewController.m in Sources */,
+				730EFCFF25FB0D6C009725A1 /* DesignNameCell.m in Sources */,
 				73C992B725EF85CB008E2E25 /* iWatch.m in Sources */,
 				73C98DD925EE1A4F008E2E25 /* AppDelegate.m in Sources */,
 				73C98DEA25EE1A53008E2E25 /* main.m in Sources */,
@@ -909,6 +961,7 @@
 				73C994C625EF8DAB008E2E25 /* BusinessCardAdapter.m in Sources */,
 				73C9967625EFC8E7008E2E25 /* AbstractSystem.m in Sources */,
 				73C992C125EF85CB008E2E25 /* Door.m in Sources */,
+				73E7AA4B25F7C403003F552D /* Node.m in Sources */,
 				73C992AF25EF85CA008E2E25 /* Builder.m in Sources */,
 				73C99A4825F1244B008E2E25 /* GBAImplementor.m in Sources */,
 				73C992B925EF85CB008E2E25 /* Android.m in Sources */,
@@ -918,6 +971,7 @@
 				73C98DDC25EE1A4F008E2E25 /* SceneDelegate.m in Sources */,
 				73C994C425EF8DAB008E2E25 /* NormalModel2.m in Sources */,
 				73C992C325EF85CB008E2E25 /* AbstractDemo.m in Sources */,
+				73E7AA3C25F7C1B1003F552D /* CustomView.m in Sources */,
 				73C9968525EFDB10008E2E25 /* AbstractImplementtor.m in Sources */,
 				F03B1AB4255B06672D6E62A6 /* Target_DesignPattern.swift in Sources */,
 				73C992B625EF85CB008E2E25 /* AndroidWatch.m in Sources */,
@@ -926,12 +980,14 @@
 				73C992B525EF85CA008E2E25 /* BaseWatch.m in Sources */,
 				73C992B325EF85CA008E2E25 /* AbstractFactoryDemo.m in Sources */,
 				73C994C125EF8DAB008E2E25 /* NormalModel.m in Sources */,
+				73B9A4EC25FA5C96005CCBFF /* ObserverViewController.m in Sources */,
 				73C994C525EF8DAB008E2E25 /* BusinessCardView.m in Sources */,
 				73C99B7825F1E440008E2E25 /* Target_DesignPattern.m in Sources */,
 				927B812297B7F27DC1FA37DA /* DemoViewController.swift in Sources */,
 				73C992BB25EF85CB008E2E25 /* Prototype_Student.m in Sources */,
 				73C992BC25EF85CB008E2E25 /* Prototype_bussiness.m in Sources */,
 				6B0B08B76CD6350BB88B6478 /* DesignPattern_Extension.swift in Sources */,
+				73B3669525F91A8D00B7134E /* LinkListIterator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
