@@ -41,7 +41,7 @@
         },
         @{@"category": @"对象去耦",
           @"demo": @[@"ObserverViewController",
-                     @"MediatorViewController"]
+                     @"MediatorDemoViewController"]
           
         },
         

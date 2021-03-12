@@ -10,6 +10,12 @@
 		6B0B08B76CD6350BB88B6478 /* DesignPattern_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AA7E9E48C0D60BFCD9047F /* DesignPattern_Extension.swift */; };
 		730EFCFF25FB0D6C009725A1 /* DesignNameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 730EFCFD25FB0D6C009725A1 /* DesignNameCell.m */; };
 		730EFD0025FB0D6C009725A1 /* DesignNameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 730EFCFE25FB0D6C009725A1 /* DesignNameCell.xib */; };
+		730EFD0825FB3850009725A1 /* MediatorDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 730EFD0625FB3850009725A1 /* MediatorDemoViewController.m */; };
+		730EFD0925FB3850009725A1 /* MediatorDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 730EFD0725FB3850009725A1 /* MediatorDemoViewController.xib */; };
+		730EFD0F25FB393B009725A1 /* TextFieldMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 730EFD0E25FB393B009725A1 /* TextFieldMediator.m */; };
+		730EFD1525FB39F1009725A1 /* AbstractMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 730EFD1425FB39F1009725A1 /* AbstractMediator.m */; };
+		730EFD1B25FB4222009725A1 /* AbstractColleague.m in Sources */ = {isa = PBXBuildFile; fileRef = 730EFD1A25FB4222009725A1 /* AbstractColleague.m */; };
+		730EFD2225FB4629009725A1 /* TextFieldColleague.m in Sources */ = {isa = PBXBuildFile; fileRef = 730EFD2125FB4629009725A1 /* TextFieldColleague.m */; };
 		73B3669525F91A8D00B7134E /* LinkListIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B3669425F91A8D00B7134E /* LinkListIterator.m */; };
 		73B9A4EC25FA5C96005CCBFF /* ObserverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B9A4EB25FA5C96005CCBFF /* ObserverViewController.m */; };
 		73B9A4F225FA5CAB005CCBFF /* SubscriptionServiceCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B9A4F125FA5CAB005CCBFF /* SubscriptionServiceCenter.m */; };
@@ -93,6 +99,17 @@
 		730EFCFC25FB0D6C009725A1 /* DesignNameCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignNameCell.h; sourceTree = "<group>"; };
 		730EFCFD25FB0D6C009725A1 /* DesignNameCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignNameCell.m; sourceTree = "<group>"; };
 		730EFCFE25FB0D6C009725A1 /* DesignNameCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DesignNameCell.xib; sourceTree = "<group>"; };
+		730EFD0525FB3850009725A1 /* MediatorDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediatorDemoViewController.h; sourceTree = "<group>"; };
+		730EFD0625FB3850009725A1 /* MediatorDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediatorDemoViewController.m; sourceTree = "<group>"; };
+		730EFD0725FB3850009725A1 /* MediatorDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MediatorDemoViewController.xib; sourceTree = "<group>"; };
+		730EFD0D25FB393B009725A1 /* TextFieldMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldMediator.h; sourceTree = "<group>"; };
+		730EFD0E25FB393B009725A1 /* TextFieldMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldMediator.m; sourceTree = "<group>"; };
+		730EFD1325FB39F1009725A1 /* AbstractMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractMediator.h; sourceTree = "<group>"; };
+		730EFD1425FB39F1009725A1 /* AbstractMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractMediator.m; sourceTree = "<group>"; };
+		730EFD1925FB4222009725A1 /* AbstractColleague.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractColleague.h; sourceTree = "<group>"; };
+		730EFD1A25FB4222009725A1 /* AbstractColleague.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractColleague.m; sourceTree = "<group>"; };
+		730EFD2025FB4629009725A1 /* TextFieldColleague.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldColleague.h; sourceTree = "<group>"; };
+		730EFD2125FB4629009725A1 /* TextFieldColleague.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldColleague.m; sourceTree = "<group>"; };
 		73B3669325F91A8D00B7134E /* LinkListIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkListIterator.h; sourceTree = "<group>"; };
 		73B3669425F91A8D00B7134E /* LinkListIterator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkListIterator.m; sourceTree = "<group>"; };
 		73B9A4EA25FA5C96005CCBFF /* ObserverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObserverViewController.h; sourceTree = "<group>"; };
@@ -255,6 +272,17 @@
 				3F3379F5CA8180BB4A0176FC /* DemoViewController.swift */,
 			);
 			name = Source;
+			sourceTree = "<group>";
+		};
+		730EFD1F25FB45F2009725A1 /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+				730EFD1325FB39F1009725A1 /* AbstractMediator.h */,
+				730EFD1425FB39F1009725A1 /* AbstractMediator.m */,
+				730EFD1925FB4222009725A1 /* AbstractColleague.h */,
+				730EFD1A25FB4222009725A1 /* AbstractColleague.m */,
+			);
+			path = Abstract;
 			sourceTree = "<group>";
 		};
 		73C98DCB25EE1A4E008E2E25 = {
@@ -564,6 +592,14 @@
 		73C9942025EF8DA7008E2E25 /* 中介者 */ = {
 			isa = PBXGroup;
 			children = (
+				730EFD0525FB3850009725A1 /* MediatorDemoViewController.h */,
+				730EFD0625FB3850009725A1 /* MediatorDemoViewController.m */,
+				730EFD0725FB3850009725A1 /* MediatorDemoViewController.xib */,
+				730EFD1F25FB45F2009725A1 /* Abstract */,
+				730EFD0D25FB393B009725A1 /* TextFieldMediator.h */,
+				730EFD0E25FB393B009725A1 /* TextFieldMediator.m */,
+				730EFD2025FB4629009725A1 /* TextFieldColleague.h */,
+				730EFD2125FB4629009725A1 /* TextFieldColleague.m */,
 			);
 			path = "中介者";
 			sourceTree = "<group>";
@@ -867,6 +903,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73C98DE725EE1A53008E2E25 /* LaunchScreen.storyboard in Resources */,
+				730EFD0925FB3850009725A1 /* MediatorDemoViewController.xib in Resources */,
 				73C98DE425EE1A52008E2E25 /* Assets.xcassets in Resources */,
 				730EFD0025FB0D6C009725A1 /* DesignNameCell.xib in Resources */,
 				73C98DE225EE1A4F008E2E25 /* Main.storyboard in Resources */,
@@ -947,11 +984,13 @@
 				73C992BF25EF85CB008E2E25 /* Prototype_CopyObject2.m in Sources */,
 				73C994C225EF8DAB008E2E25 /* NormalModel2Adapter.m in Sources */,
 				73C992B225EF85CA008E2E25 /* BaseFactory.m in Sources */,
+				730EFD1525FB39F1009725A1 /* AbstractMediator.m in Sources */,
 				73C992B425EF85CA008E2E25 /* FactoryManager.m in Sources */,
 				73C9967F25EFD546008E2E25 /* BridgeViewController.m in Sources */,
 				73E7AA3525F7C16A003F552D /* IteratorViewController.m in Sources */,
 				730EFCFF25FB0D6C009725A1 /* DesignNameCell.m in Sources */,
 				73C992B725EF85CB008E2E25 /* iWatch.m in Sources */,
+				730EFD2225FB4629009725A1 /* TextFieldColleague.m in Sources */,
 				73C98DD925EE1A4F008E2E25 /* AppDelegate.m in Sources */,
 				73C98DEA25EE1A53008E2E25 /* main.m in Sources */,
 				73C9968F25EFE02E008E2E25 /* GBASystem.m in Sources */,
@@ -965,6 +1004,7 @@
 				73C992AF25EF85CA008E2E25 /* Builder.m in Sources */,
 				73C99A4825F1244B008E2E25 /* GBAImplementor.m in Sources */,
 				73C992B925EF85CB008E2E25 /* Android.m in Sources */,
+				730EFD0825FB3850009725A1 /* MediatorDemoViewController.m in Sources */,
 				73C99A5325F12E34008E2E25 /* PSPImplementtor.m in Sources */,
 				73C992C425EF85CB008E2E25 /* UserInfoManagerCenter.m in Sources */,
 				73C992B125EF85CA008E2E25 /* AppleFactory.m in Sources */,
@@ -977,6 +1017,7 @@
 				73C992B625EF85CB008E2E25 /* AndroidWatch.m in Sources */,
 				73C994C325EF8DAB008E2E25 /* NormalModelAdapter.m in Sources */,
 				73C992C225EF85CB008E2E25 /* Engine.m in Sources */,
+				730EFD1B25FB4222009725A1 /* AbstractColleague.m in Sources */,
 				73C992B525EF85CA008E2E25 /* BaseWatch.m in Sources */,
 				73C992B325EF85CA008E2E25 /* AbstractFactoryDemo.m in Sources */,
 				73C994C125EF8DAB008E2E25 /* NormalModel.m in Sources */,
@@ -987,6 +1028,7 @@
 				73C992BB25EF85CB008E2E25 /* Prototype_Student.m in Sources */,
 				73C992BC25EF85CB008E2E25 /* Prototype_bussiness.m in Sources */,
 				6B0B08B76CD6350BB88B6478 /* DesignPattern_Extension.swift in Sources */,
+				730EFD0F25FB393B009725A1 /* TextFieldMediator.m in Sources */,
 				73B3669525F91A8D00B7134E /* LinkListIterator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
