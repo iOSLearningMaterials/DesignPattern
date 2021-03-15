@@ -17,6 +17,7 @@
 		730EFD1B25FB4222009725A1 /* AbstractColleague.m in Sources */ = {isa = PBXBuildFile; fileRef = 730EFD1A25FB4222009725A1 /* AbstractColleague.m */; };
 		730EFD2225FB4629009725A1 /* TextFieldColleague.m in Sources */ = {isa = PBXBuildFile; fileRef = 730EFD2125FB4629009725A1 /* TextFieldColleague.m */; };
 		730EFDA825FB6A5C009725A1 /* MementoCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 730EFDA725FB6A5C009725A1 /* MementoCenter.m */; };
+		73296CF925FF08EB00497312 /* NSObject+MementoCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 73296CF825FF08EB00497312 /* NSObject+MementoCenter.m */; };
 		7342DB2B25FEFB9300A921ED /* FastCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7342DB2925FEFB9300A921ED /* FastCoder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7342DB4025FF001600A921ED /* MementoDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7342DB3F25FF001600A921ED /* MementoDemoView.m */; };
 		7342DB4625FF016C00A921ED /* MementoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7342DB4525FF016C00A921ED /* MementoModel.m */; };
@@ -118,6 +119,8 @@
 		730EFDA625FB6A5C009725A1 /* MementoCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MementoCenter.h; sourceTree = "<group>"; };
 		730EFDA725FB6A5C009725A1 /* MementoCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoCenter.m; sourceTree = "<group>"; };
 		730EFDAC25FB6A9C009725A1 /* MementoCenterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MementoCenterProtocol.h; sourceTree = "<group>"; };
+		73296CF725FF08EB00497312 /* NSObject+MementoCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MementoCenter.h"; sourceTree = "<group>"; };
+		73296CF825FF08EB00497312 /* NSObject+MementoCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MementoCenter.m"; sourceTree = "<group>"; };
 		7342DB2925FEFB9300A921ED /* FastCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastCoder.m; sourceTree = "<group>"; };
 		7342DB2A25FEFB9300A921ED /* FastCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastCoder.h; sourceTree = "<group>"; };
 		7342DB3E25FF001600A921ED /* MementoDemoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MementoDemoView.h; sourceTree = "<group>"; };
@@ -299,6 +302,18 @@
 				730EFD1A25FB4222009725A1 /* AbstractColleague.m */,
 			);
 			path = Abstract;
+			sourceTree = "<group>";
+		};
+		73296CF625FF088E00497312 /* MementoCenter */ = {
+			isa = PBXGroup;
+			children = (
+				730EFDA625FB6A5C009725A1 /* MementoCenter.h */,
+				730EFDA725FB6A5C009725A1 /* MementoCenter.m */,
+				73296CF725FF08EB00497312 /* NSObject+MementoCenter.h */,
+				73296CF825FF08EB00497312 /* NSObject+MementoCenter.m */,
+				730EFDAC25FB6A9C009725A1 /* MementoCenterProtocol.h */,
+			);
+			path = MementoCenter;
 			sourceTree = "<group>";
 		};
 		7342DB2725FEFB7C00A921ED /* Tools */ = {
@@ -651,13 +666,11 @@
 			children = (
 				7342DB4A25FF031400A921ED /* MementoDemoViewController.h */,
 				7342DB4B25FF031400A921ED /* MementoDemoViewController.m */,
-				730EFDA625FB6A5C009725A1 /* MementoCenter.h */,
-				730EFDA725FB6A5C009725A1 /* MementoCenter.m */,
-				730EFDAC25FB6A9C009725A1 /* MementoCenterProtocol.h */,
 				7342DB3E25FF001600A921ED /* MementoDemoView.h */,
 				7342DB3F25FF001600A921ED /* MementoDemoView.m */,
 				7342DB4425FF016C00A921ED /* MementoModel.h */,
 				7342DB4525FF016C00A921ED /* MementoModel.m */,
+				73296CF625FF088E00497312 /* MementoCenter */,
 			);
 			path = "备忘录";
 			sourceTree = "<group>";
@@ -1029,6 +1042,7 @@
 				73C994C225EF8DAB008E2E25 /* NormalModel2Adapter.m in Sources */,
 				73C992B225EF85CA008E2E25 /* BaseFactory.m in Sources */,
 				730EFD1525FB39F1009725A1 /* AbstractMediator.m in Sources */,
+				73296CF925FF08EB00497312 /* NSObject+MementoCenter.m in Sources */,
 				73C992B425EF85CA008E2E25 /* FactoryManager.m in Sources */,
 				73C9967F25EFD546008E2E25 /* BridgeViewController.m in Sources */,
 				73E7AA3525F7C16A003F552D /* IteratorViewController.m in Sources */,
