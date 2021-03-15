@@ -46,7 +46,7 @@
         },
         
         @{@"category": @"对象状态",
-          @"demo": @[@""]
+          @"demo": @[@"MementoDemoViewController"]
           
         },
         @{@"category": @"算法封装",

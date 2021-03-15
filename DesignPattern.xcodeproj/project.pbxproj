@@ -16,6 +16,11 @@
 		730EFD1525FB39F1009725A1 /* AbstractMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 730EFD1425FB39F1009725A1 /* AbstractMediator.m */; };
 		730EFD1B25FB4222009725A1 /* AbstractColleague.m in Sources */ = {isa = PBXBuildFile; fileRef = 730EFD1A25FB4222009725A1 /* AbstractColleague.m */; };
 		730EFD2225FB4629009725A1 /* TextFieldColleague.m in Sources */ = {isa = PBXBuildFile; fileRef = 730EFD2125FB4629009725A1 /* TextFieldColleague.m */; };
+		730EFDA825FB6A5C009725A1 /* MementoCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 730EFDA725FB6A5C009725A1 /* MementoCenter.m */; };
+		7342DB2B25FEFB9300A921ED /* FastCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7342DB2925FEFB9300A921ED /* FastCoder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7342DB4025FF001600A921ED /* MementoDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7342DB3F25FF001600A921ED /* MementoDemoView.m */; };
+		7342DB4625FF016C00A921ED /* MementoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7342DB4525FF016C00A921ED /* MementoModel.m */; };
+		7342DB4C25FF031400A921ED /* MementoDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7342DB4B25FF031400A921ED /* MementoDemoViewController.m */; };
 		73B3669525F91A8D00B7134E /* LinkListIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B3669425F91A8D00B7134E /* LinkListIterator.m */; };
 		73B9A4EC25FA5C96005CCBFF /* ObserverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B9A4EB25FA5C96005CCBFF /* ObserverViewController.m */; };
 		73B9A4F225FA5CAB005CCBFF /* SubscriptionServiceCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B9A4F125FA5CAB005CCBFF /* SubscriptionServiceCenter.m */; };
@@ -110,6 +115,17 @@
 		730EFD1A25FB4222009725A1 /* AbstractColleague.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractColleague.m; sourceTree = "<group>"; };
 		730EFD2025FB4629009725A1 /* TextFieldColleague.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldColleague.h; sourceTree = "<group>"; };
 		730EFD2125FB4629009725A1 /* TextFieldColleague.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldColleague.m; sourceTree = "<group>"; };
+		730EFDA625FB6A5C009725A1 /* MementoCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MementoCenter.h; sourceTree = "<group>"; };
+		730EFDA725FB6A5C009725A1 /* MementoCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoCenter.m; sourceTree = "<group>"; };
+		730EFDAC25FB6A9C009725A1 /* MementoCenterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MementoCenterProtocol.h; sourceTree = "<group>"; };
+		7342DB2925FEFB9300A921ED /* FastCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastCoder.m; sourceTree = "<group>"; };
+		7342DB2A25FEFB9300A921ED /* FastCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastCoder.h; sourceTree = "<group>"; };
+		7342DB3E25FF001600A921ED /* MementoDemoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MementoDemoView.h; sourceTree = "<group>"; };
+		7342DB3F25FF001600A921ED /* MementoDemoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoDemoView.m; sourceTree = "<group>"; };
+		7342DB4425FF016C00A921ED /* MementoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MementoModel.h; sourceTree = "<group>"; };
+		7342DB4525FF016C00A921ED /* MementoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoModel.m; sourceTree = "<group>"; };
+		7342DB4A25FF031400A921ED /* MementoDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MementoDemoViewController.h; sourceTree = "<group>"; };
+		7342DB4B25FF031400A921ED /* MementoDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoDemoViewController.m; sourceTree = "<group>"; };
 		73B3669325F91A8D00B7134E /* LinkListIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkListIterator.h; sourceTree = "<group>"; };
 		73B3669425F91A8D00B7134E /* LinkListIterator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkListIterator.m; sourceTree = "<group>"; };
 		73B9A4EA25FA5C96005CCBFF /* ObserverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObserverViewController.h; sourceTree = "<group>"; };
@@ -285,6 +301,23 @@
 			path = Abstract;
 			sourceTree = "<group>";
 		};
+		7342DB2725FEFB7C00A921ED /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				7342DB2825FEFB9300A921ED /* FastCoder */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		7342DB2825FEFB9300A921ED /* FastCoder */ = {
+			isa = PBXGroup;
+			children = (
+				7342DB2925FEFB9300A921ED /* FastCoder.m */,
+				7342DB2A25FEFB9300A921ED /* FastCoder.h */,
+			);
+			path = FastCoder;
+			sourceTree = "<group>";
+		};
 		73C98DCB25EE1A4E008E2E25 = {
 			isa = PBXGroup;
 			children = (
@@ -354,6 +387,7 @@
 		73C98F7325EF8534008E2E25 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				7342DB2725FEFB7C00A921ED /* Tools */,
 				73C99BB525F1E79E008E2E25 /* Targets */,
 				73C9927325EF85CA008E2E25 /* 对象创建 */,
 				73C9943325EF8DA8008E2E25 /* 接口适配 */,
@@ -615,6 +649,15 @@
 		73C9942725EF8DA8008E2E25 /* 备忘录 */ = {
 			isa = PBXGroup;
 			children = (
+				7342DB4A25FF031400A921ED /* MementoDemoViewController.h */,
+				7342DB4B25FF031400A921ED /* MementoDemoViewController.m */,
+				730EFDA625FB6A5C009725A1 /* MementoCenter.h */,
+				730EFDA725FB6A5C009725A1 /* MementoCenter.m */,
+				730EFDAC25FB6A9C009725A1 /* MementoCenterProtocol.h */,
+				7342DB3E25FF001600A921ED /* MementoDemoView.h */,
+				7342DB3F25FF001600A921ED /* MementoDemoView.m */,
+				7342DB4425FF016C00A921ED /* MementoModel.h */,
+				7342DB4525FF016C00A921ED /* MementoModel.m */,
 			);
 			path = "备忘录";
 			sourceTree = "<group>";
@@ -977,6 +1020,7 @@
 				73C992BD25EF85CB008E2E25 /* Prototype_BaseCopyObject.m in Sources */,
 				73C992C025EF85CB008E2E25 /* Wheel.m in Sources */,
 				73C994C025EF8DAB008E2E25 /* AdapterViewController.m in Sources */,
+				7342DB4625FF016C00A921ED /* MementoModel.m in Sources */,
 				73E7AA4525F7C3EB003F552D /* LinkedList.m in Sources */,
 				73C992BA25EF85CB008E2E25 /* BasePhone.m in Sources */,
 				73B9A4F225FA5CAB005CCBFF /* SubscriptionServiceCenter.m in Sources */,
@@ -1007,12 +1051,14 @@
 				730EFD0825FB3850009725A1 /* MediatorDemoViewController.m in Sources */,
 				73C99A5325F12E34008E2E25 /* PSPImplementtor.m in Sources */,
 				73C992C425EF85CB008E2E25 /* UserInfoManagerCenter.m in Sources */,
+				7342DB4C25FF031400A921ED /* MementoDemoViewController.m in Sources */,
 				73C992B125EF85CA008E2E25 /* AppleFactory.m in Sources */,
 				73C98DDC25EE1A4F008E2E25 /* SceneDelegate.m in Sources */,
 				73C994C425EF8DAB008E2E25 /* NormalModel2.m in Sources */,
 				73C992C325EF85CB008E2E25 /* AbstractDemo.m in Sources */,
 				73E7AA3C25F7C1B1003F552D /* CustomView.m in Sources */,
 				73C9968525EFDB10008E2E25 /* AbstractImplementtor.m in Sources */,
+				730EFDA825FB6A5C009725A1 /* MementoCenter.m in Sources */,
 				F03B1AB4255B06672D6E62A6 /* Target_DesignPattern.swift in Sources */,
 				73C992B625EF85CB008E2E25 /* AndroidWatch.m in Sources */,
 				73C994C325EF8DAB008E2E25 /* NormalModelAdapter.m in Sources */,
@@ -1020,6 +1066,8 @@
 				730EFD1B25FB4222009725A1 /* AbstractColleague.m in Sources */,
 				73C992B525EF85CA008E2E25 /* BaseWatch.m in Sources */,
 				73C992B325EF85CA008E2E25 /* AbstractFactoryDemo.m in Sources */,
+				7342DB2B25FEFB9300A921ED /* FastCoder.m in Sources */,
+				7342DB4025FF001600A921ED /* MementoDemoView.m in Sources */,
 				73C994C125EF8DAB008E2E25 /* NormalModel.m in Sources */,
 				73B9A4EC25FA5C96005CCBFF /* ObserverViewController.m in Sources */,
 				73C994C525EF8DAB008E2E25 /* BusinessCardView.m in Sources */,
