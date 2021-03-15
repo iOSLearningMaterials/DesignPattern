@@ -13,8 +13,8 @@
 + (void)saveMementoObject:(id<MementoCenterProtocol>)mementoObject withKey:(NSString *)key {
     NSParameterAssert(mementoObject);
     NSParameterAssert(key);
-    
-    NSData *data = [self dataWithObj:mementoObject];
+    // *****备忘录模式存储的是对象的某个状态，并不是这个对象*****
+    NSData *data = [self dataWithObj:[mementoObject currentObjState]];
     if (data) {
         [self storeValue:data with:key];
     }

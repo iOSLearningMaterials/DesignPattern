@@ -6,6 +6,7 @@
 //
 /**
  备忘录中心
+ 备忘录模式存储的是对象的某个状态，并不是这个对象
  */
 #import <Foundation/Foundation.h>
 #import "MementoCenterProtocol.h"

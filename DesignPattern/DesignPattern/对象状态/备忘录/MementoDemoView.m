@@ -10,11 +10,14 @@
 @implementation MementoDemoView
 
 - (id)currentObjState {
-    return self;
+    return @{@"frame": NSStringFromCGRect(self.frame)};
 }
 
 - (void)recoverFromState:(id)state {
-    
+    if ([state isKindOfClass:[NSDictionary class]]) {
+        NSDictionary *data = state;
+        self.frame = CGRectFromString([data objectForKey:@"frame"]);
+    }
 }
 
 @end

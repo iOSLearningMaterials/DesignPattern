@@ -9,6 +9,7 @@
 #import "MementoCenter.h"
 #import "MementoModel.h"
 #import "NSObject+MementoCenter.h"
+#import "MementoDemoView.h"
 
 @interface MementoDemoViewController ()
 
@@ -18,8 +19,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    [self mementoTest];
+    self.view.backgroundColor = [UIColor cyanColor];
+//    [self mementoTest];
     
     [self mementoDemoView];
 }
@@ -60,7 +61,20 @@
 
 /// demo2备忘录模式在view中的使用
 - (void)mementoDemoView {
+    MementoDemoView *demoView = [[MementoDemoView alloc] init];
+    demoView.backgroundColor = [UIColor redColor];
+    [self.view addSubview:demoView];
     
+    
+//    demoView.frame = CGRectMake(20, 100, 200, 100);
+    NSLog(@"demoView的初始frame == %@", demoView);
+
+    // 存储对象的A状态
+//    [demoView saveStateWithKey:@"A"];
+    
+    // 恢复对象的A状态
+    [demoView recoverFromStateWithKey:@"A"];
+    NSLog(@"demoView恢复后的frame == %@", demoView);
 }
 
 @end
