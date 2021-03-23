@@ -22,6 +22,15 @@
 		7342DB4025FF001600A921ED /* MementoDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7342DB3F25FF001600A921ED /* MementoDemoView.m */; };
 		7342DB4625FF016C00A921ED /* MementoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7342DB4525FF016C00A921ED /* MementoModel.m */; };
 		7342DB4C25FF031400A921ED /* MementoDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7342DB4B25FF031400A921ED /* MementoDemoViewController.m */; };
+		73597344260A284C001F0317 /* InputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 73597343260A284C001F0317 /* InputValidator.m */; };
+		73597350260A2ABD001F0317 /* EmailInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7359734F260A2ABD001F0317 /* EmailInputValidator.m */; };
+		73597359260A2C4C001F0317 /* PhoneNumberValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 73597358260A2C4C001F0317 /* PhoneNumberValidator.m */; };
+		73A3B8382600F82400A28CB7 /* StrategyDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A3B8372600F82400A28CB7 /* StrategyDemoViewController.m */; };
+		73A3B97E2608C67000A28CB7 /* EtyeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A3B97D2608C67000A28CB7 /* EtyeValue.m */; };
+		73A3B9842608C93900A28CB7 /* AbstractEtypeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A3B9832608C93900A28CB7 /* AbstractEtypeValue.m */; };
+		73A3B98A2608C9CC00A28CB7 /* EtypeValueA.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A3B9892608C9CC00A28CB7 /* EtypeValueA.m */; };
+		73A3B9922608D89600A28CB7 /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A3B9912608D89600A28CB7 /* CustomTextField.m */; };
+		73A3B9CA2608E38C00A28CB7 /* UIInfomationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A3B9C82608E38C00A28CB7 /* UIInfomationView.m */; };
 		73B3669525F91A8D00B7134E /* LinkListIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B3669425F91A8D00B7134E /* LinkListIterator.m */; };
 		73B9A4EC25FA5C96005CCBFF /* ObserverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B9A4EB25FA5C96005CCBFF /* ObserverViewController.m */; };
 		73B9A4F225FA5CAB005CCBFF /* SubscriptionServiceCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B9A4F125FA5CAB005CCBFF /* SubscriptionServiceCenter.m */; };
@@ -129,6 +138,24 @@
 		7342DB4525FF016C00A921ED /* MementoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoModel.m; sourceTree = "<group>"; };
 		7342DB4A25FF031400A921ED /* MementoDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MementoDemoViewController.h; sourceTree = "<group>"; };
 		7342DB4B25FF031400A921ED /* MementoDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoDemoViewController.m; sourceTree = "<group>"; };
+		73597342260A284C001F0317 /* InputValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputValidator.h; sourceTree = "<group>"; };
+		73597343260A284C001F0317 /* InputValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputValidator.m; sourceTree = "<group>"; };
+		7359734E260A2ABD001F0317 /* EmailInputValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmailInputValidator.h; sourceTree = "<group>"; };
+		7359734F260A2ABD001F0317 /* EmailInputValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmailInputValidator.m; sourceTree = "<group>"; };
+		73597357260A2C4C001F0317 /* PhoneNumberValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneNumberValidator.h; sourceTree = "<group>"; };
+		73597358260A2C4C001F0317 /* PhoneNumberValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneNumberValidator.m; sourceTree = "<group>"; };
+		73A3B8362600F82400A28CB7 /* StrategyDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrategyDemoViewController.h; sourceTree = "<group>"; };
+		73A3B8372600F82400A28CB7 /* StrategyDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrategyDemoViewController.m; sourceTree = "<group>"; };
+		73A3B97C2608C67000A28CB7 /* EtyeValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EtyeValue.h; sourceTree = "<group>"; };
+		73A3B97D2608C67000A28CB7 /* EtyeValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EtyeValue.m; sourceTree = "<group>"; };
+		73A3B9822608C93900A28CB7 /* AbstractEtypeValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractEtypeValue.h; sourceTree = "<group>"; };
+		73A3B9832608C93900A28CB7 /* AbstractEtypeValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractEtypeValue.m; sourceTree = "<group>"; };
+		73A3B9882608C9CB00A28CB7 /* EtypeValueA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EtypeValueA.h; sourceTree = "<group>"; };
+		73A3B9892608C9CC00A28CB7 /* EtypeValueA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EtypeValueA.m; sourceTree = "<group>"; };
+		73A3B9902608D89600A28CB7 /* CustomTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTextField.h; sourceTree = "<group>"; };
+		73A3B9912608D89600A28CB7 /* CustomTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
+		73A3B9C82608E38C00A28CB7 /* UIInfomationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIInfomationView.m; sourceTree = "<group>"; };
+		73A3B9C92608E38C00A28CB7 /* UIInfomationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIInfomationView.h; sourceTree = "<group>"; };
 		73B3669325F91A8D00B7134E /* LinkListIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkListIterator.h; sourceTree = "<group>"; };
 		73B3669425F91A8D00B7134E /* LinkListIterator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkListIterator.m; sourceTree = "<group>"; };
 		73B9A4EA25FA5C96005CCBFF /* ObserverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObserverViewController.h; sourceTree = "<group>"; };
@@ -319,6 +346,7 @@
 		7342DB2725FEFB7C00A921ED /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				73A3B9C72608E36500A28CB7 /* UIAlertView */,
 				7342DB2825FEFB9300A921ED /* FastCoder */,
 			);
 			path = Tools;
@@ -331,6 +359,51 @@
 				7342DB2A25FEFB9300A921ED /* FastCoder.h */,
 			);
 			path = FastCoder;
+			sourceTree = "<group>";
+		};
+		73597341260A281D001F0317 /* AbstractInputValidator */ = {
+			isa = PBXGroup;
+			children = (
+				73597342260A284C001F0317 /* InputValidator.h */,
+				73597343260A284C001F0317 /* InputValidator.m */,
+			);
+			path = AbstractInputValidator;
+			sourceTree = "<group>";
+		};
+		73A3B98E2608D74100A28CB7 /* TypeValue */ = {
+			isa = PBXGroup;
+			children = (
+				73A3B97C2608C67000A28CB7 /* EtyeValue.h */,
+				73A3B97D2608C67000A28CB7 /* EtyeValue.m */,
+				73A3B9822608C93900A28CB7 /* AbstractEtypeValue.h */,
+				73A3B9832608C93900A28CB7 /* AbstractEtypeValue.m */,
+				73A3B9882608C9CB00A28CB7 /* EtypeValueA.h */,
+				73A3B9892608C9CC00A28CB7 /* EtypeValueA.m */,
+			);
+			path = TypeValue;
+			sourceTree = "<group>";
+		};
+		73A3B98F2608D87D00A28CB7 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				73597341260A281D001F0317 /* AbstractInputValidator */,
+				73A3B9902608D89600A28CB7 /* CustomTextField.h */,
+				73A3B9912608D89600A28CB7 /* CustomTextField.m */,
+				7359734E260A2ABD001F0317 /* EmailInputValidator.h */,
+				7359734F260A2ABD001F0317 /* EmailInputValidator.m */,
+				73597357260A2C4C001F0317 /* PhoneNumberValidator.h */,
+				73597358260A2C4C001F0317 /* PhoneNumberValidator.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		73A3B9C72608E36500A28CB7 /* UIAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				73A3B9C92608E38C00A28CB7 /* UIInfomationView.h */,
+				73A3B9C82608E38C00A28CB7 /* UIInfomationView.m */,
+			);
+			path = UIAlertView;
 			sourceTree = "<group>";
 		};
 		73C98DCB25EE1A4E008E2E25 = {
@@ -792,6 +865,10 @@
 		73C9948025EF8DAA008E2E25 /* 策略 */ = {
 			isa = PBXGroup;
 			children = (
+				73A3B8362600F82400A28CB7 /* StrategyDemoViewController.h */,
+				73A3B8372600F82400A28CB7 /* StrategyDemoViewController.m */,
+				73A3B98F2608D87D00A28CB7 /* Demo */,
+				73A3B98E2608D74100A28CB7 /* TypeValue */,
 			);
 			path = "策略";
 			sourceTree = "<group>";
@@ -1031,10 +1108,12 @@
 			files = (
 				73C98DDF25EE1A4F008E2E25 /* ViewController.m in Sources */,
 				73C992BD25EF85CB008E2E25 /* Prototype_BaseCopyObject.m in Sources */,
+				73597359260A2C4C001F0317 /* PhoneNumberValidator.m in Sources */,
 				73C992C025EF85CB008E2E25 /* Wheel.m in Sources */,
 				73C994C025EF8DAB008E2E25 /* AdapterViewController.m in Sources */,
 				7342DB4625FF016C00A921ED /* MementoModel.m in Sources */,
 				73E7AA4525F7C3EB003F552D /* LinkedList.m in Sources */,
+				73A3B97E2608C67000A28CB7 /* EtyeValue.m in Sources */,
 				73C992BA25EF85CB008E2E25 /* BasePhone.m in Sources */,
 				73B9A4F225FA5CAB005CCBFF /* SubscriptionServiceCenter.m in Sources */,
 				73C99A5925F12E47008E2E25 /* PSPSystem.m in Sources */,
@@ -1043,15 +1122,22 @@
 				73C992B225EF85CA008E2E25 /* BaseFactory.m in Sources */,
 				730EFD1525FB39F1009725A1 /* AbstractMediator.m in Sources */,
 				73296CF925FF08EB00497312 /* NSObject+MementoCenter.m in Sources */,
+				73A3B8382600F82400A28CB7 /* StrategyDemoViewController.m in Sources */,
 				73C992B425EF85CA008E2E25 /* FactoryManager.m in Sources */,
 				73C9967F25EFD546008E2E25 /* BridgeViewController.m in Sources */,
 				73E7AA3525F7C16A003F552D /* IteratorViewController.m in Sources */,
 				730EFCFF25FB0D6C009725A1 /* DesignNameCell.m in Sources */,
+				73597350260A2ABD001F0317 /* EmailInputValidator.m in Sources */,
+				73A3B9922608D89600A28CB7 /* CustomTextField.m in Sources */,
 				73C992B725EF85CB008E2E25 /* iWatch.m in Sources */,
 				730EFD2225FB4629009725A1 /* TextFieldColleague.m in Sources */,
 				73C98DD925EE1A4F008E2E25 /* AppDelegate.m in Sources */,
+				73A3B9CA2608E38C00A28CB7 /* UIInfomationView.m in Sources */,
 				73C98DEA25EE1A53008E2E25 /* main.m in Sources */,
 				73C9968F25EFE02E008E2E25 /* GBASystem.m in Sources */,
+				73A3B98A2608C9CC00A28CB7 /* EtypeValueA.m in Sources */,
+				73A3B9842608C93900A28CB7 /* AbstractEtypeValue.m in Sources */,
+				73597344260A284C001F0317 /* InputValidator.m in Sources */,
 				73C992BE25EF85CB008E2E25 /* Prototype_CopyObject.m in Sources */,
 				73C992B825EF85CB008E2E25 /* iPhone.m in Sources */,
 				73C992B025EF85CA008E2E25 /* GoogleFactory.m in Sources */,

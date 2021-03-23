@@ -50,7 +50,7 @@
           
         },
         @{@"category": @"算法封装",
-          @"demo": @[@""]
+          @"demo": @[@"StrategyDemoViewController"]
           
         },
         @{@"category": @"行为扩展",
