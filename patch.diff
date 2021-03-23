@@ -1,0 +1,448 @@
+From 27777640e707f83124fd0357aa882b8de9e720ab Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?=E4=BA=8E=E9=B8=BF=E9=B9=8F?= <hongpeng03@gmail.com>
+Date: Tue, 23 Mar 2021 22:52:25 +0800
+Subject: [PATCH] =?UTF-8?q?feat:=20=E6=A8=A1=E7=89=88=E6=96=B9=E6=B3=95?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ DesignPattern.xcodeproj/project.pbxproj       | 26 +++++++++++
+ .../算法封装/模版方法/Chess.h         | 16 +++++++
+ .../算法封装/模版方法/Chess.m         | 37 +++++++++++++++
+ .../算法封装/模版方法/FootballGame.h  | 16 +++++++
+ .../算法封装/模版方法/FootballGame.m  | 37 +++++++++++++++
+ .../算法封装/模版方法/Game.h          | 34 ++++++++++++++
+ .../算法封装/模版方法/Game.m          | 37 +++++++++++++++
+ .../算法封装/模版方法/GameProtocol.h  | 34 ++++++++++++++
+ .../模版方法/TemplateDemoViewController.h | 16 +++++++
+ .../模版方法/TemplateDemoViewController.m | 46 +++++++++++++++++++
+ DesignPattern/ViewController.m                |  6 ++-
+ 11 files changed, 303 insertions(+), 2 deletions(-)
+ create mode 100644 DesignPattern/DesignPattern/算法封装/模版方法/Chess.h
+ create mode 100644 DesignPattern/DesignPattern/算法封装/模版方法/Chess.m
+ create mode 100644 DesignPattern/DesignPattern/算法封装/模版方法/FootballGame.h
+ create mode 100644 DesignPattern/DesignPattern/算法封装/模版方法/FootballGame.m
+ create mode 100644 DesignPattern/DesignPattern/算法封装/模版方法/Game.h
+ create mode 100644 DesignPattern/DesignPattern/算法封装/模版方法/Game.m
+ create mode 100644 DesignPattern/DesignPattern/算法封装/模版方法/GameProtocol.h
+ create mode 100644 DesignPattern/DesignPattern/算法封装/模版方法/TemplateDemoViewController.h
+ create mode 100644 DesignPattern/DesignPattern/算法封装/模版方法/TemplateDemoViewController.m
+
+diff --git a/DesignPattern.xcodeproj/project.pbxproj b/DesignPattern.xcodeproj/project.pbxproj
+index ae00cb1..d21ff93 100644
+--- a/DesignPattern.xcodeproj/project.pbxproj
++++ b/DesignPattern.xcodeproj/project.pbxproj
+@@ -25,6 +25,10 @@
+ 		73597344260A284C001F0317 /* InputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 73597343260A284C001F0317 /* InputValidator.m */; };
+ 		73597350260A2ABD001F0317 /* EmailInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7359734F260A2ABD001F0317 /* EmailInputValidator.m */; };
+ 		73597359260A2C4C001F0317 /* PhoneNumberValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 73597358260A2C4C001F0317 /* PhoneNumberValidator.m */; };
++		7359735F260A33DA001F0317 /* TemplateDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7359735E260A33DA001F0317 /* TemplateDemoViewController.m */; };
++		73597365260A33F0001F0317 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 73597364260A33F0001F0317 /* Game.m */; };
++		7359736B260A3405001F0317 /* FootballGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7359736A260A3405001F0317 /* FootballGame.m */; };
++		73597372260A3545001F0317 /* Chess.m in Sources */ = {isa = PBXBuildFile; fileRef = 73597371260A3545001F0317 /* Chess.m */; };
+ 		73A3B8382600F82400A28CB7 /* StrategyDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A3B8372600F82400A28CB7 /* StrategyDemoViewController.m */; };
+ 		73A3B97E2608C67000A28CB7 /* EtyeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A3B97D2608C67000A28CB7 /* EtyeValue.m */; };
+ 		73A3B9842608C93900A28CB7 /* AbstractEtypeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A3B9832608C93900A28CB7 /* AbstractEtypeValue.m */; };
+@@ -144,6 +148,15 @@
+ 		7359734F260A2ABD001F0317 /* EmailInputValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmailInputValidator.m; sourceTree = "<group>"; };
+ 		73597357260A2C4C001F0317 /* PhoneNumberValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneNumberValidator.h; sourceTree = "<group>"; };
+ 		73597358260A2C4C001F0317 /* PhoneNumberValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneNumberValidator.m; sourceTree = "<group>"; };
++		7359735D260A33DA001F0317 /* TemplateDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemplateDemoViewController.h; sourceTree = "<group>"; };
++		7359735E260A33DA001F0317 /* TemplateDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemplateDemoViewController.m; sourceTree = "<group>"; };
++		73597363260A33F0001F0317 /* Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
++		73597364260A33F0001F0317 /* Game.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
++		73597369260A3405001F0317 /* FootballGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FootballGame.h; sourceTree = "<group>"; };
++		7359736A260A3405001F0317 /* FootballGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FootballGame.m; sourceTree = "<group>"; };
++		73597370260A3545001F0317 /* Chess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chess.h; sourceTree = "<group>"; };
++		73597371260A3545001F0317 /* Chess.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chess.m; sourceTree = "<group>"; };
++		73597376260A3721001F0317 /* GameProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameProtocol.h; sourceTree = "<group>"; };
+ 		73A3B8362600F82400A28CB7 /* StrategyDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrategyDemoViewController.h; sourceTree = "<group>"; };
+ 		73A3B8372600F82400A28CB7 /* StrategyDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrategyDemoViewController.m; sourceTree = "<group>"; };
+ 		73A3B97C2608C67000A28CB7 /* EtyeValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EtyeValue.h; sourceTree = "<group>"; };
+@@ -876,6 +889,15 @@
+ 		73C9948125EF8DAA008E2E25 /* 模版方法 */ = {
+ 			isa = PBXGroup;
+ 			children = (
++				7359735D260A33DA001F0317 /* TemplateDemoViewController.h */,
++				7359735E260A33DA001F0317 /* TemplateDemoViewController.m */,
++				73597363260A33F0001F0317 /* Game.h */,
++				73597364260A33F0001F0317 /* Game.m */,
++				73597369260A3405001F0317 /* FootballGame.h */,
++				7359736A260A3405001F0317 /* FootballGame.m */,
++				73597370260A3545001F0317 /* Chess.h */,
++				73597371260A3545001F0317 /* Chess.m */,
++				73597376260A3721001F0317 /* GameProtocol.h */,
+ 			);
+ 			path = "模版方法";
+ 			sourceTree = "<group>";
+@@ -1110,15 +1132,19 @@
+ 				73C992BD25EF85CB008E2E25 /* Prototype_BaseCopyObject.m in Sources */,
+ 				73597359260A2C4C001F0317 /* PhoneNumberValidator.m in Sources */,
+ 				73C992C025EF85CB008E2E25 /* Wheel.m in Sources */,
++				73597372260A3545001F0317 /* Chess.m in Sources */,
+ 				73C994C025EF8DAB008E2E25 /* AdapterViewController.m in Sources */,
+ 				7342DB4625FF016C00A921ED /* MementoModel.m in Sources */,
+ 				73E7AA4525F7C3EB003F552D /* LinkedList.m in Sources */,
++				7359735F260A33DA001F0317 /* TemplateDemoViewController.m in Sources */,
+ 				73A3B97E2608C67000A28CB7 /* EtyeValue.m in Sources */,
+ 				73C992BA25EF85CB008E2E25 /* BasePhone.m in Sources */,
+ 				73B9A4F225FA5CAB005CCBFF /* SubscriptionServiceCenter.m in Sources */,
++				73597365260A33F0001F0317 /* Game.m in Sources */,
+ 				73C99A5925F12E47008E2E25 /* PSPSystem.m in Sources */,
+ 				73C992BF25EF85CB008E2E25 /* Prototype_CopyObject2.m in Sources */,
+ 				73C994C225EF8DAB008E2E25 /* NormalModel2Adapter.m in Sources */,
++				7359736B260A3405001F0317 /* FootballGame.m in Sources */,
+ 				73C992B225EF85CA008E2E25 /* BaseFactory.m in Sources */,
+ 				730EFD1525FB39F1009725A1 /* AbstractMediator.m in Sources */,
+ 				73296CF925FF08EB00497312 /* NSObject+MementoCenter.m in Sources */,
+diff --git a/DesignPattern/DesignPattern/算法封装/模版方法/Chess.h b/DesignPattern/DesignPattern/算法封装/模版方法/Chess.h
+new file mode 100644
+index 0000000..0ddd22c
+--- /dev/null
++++ b/DesignPattern/DesignPattern/算法封装/模版方法/Chess.h
+@@ -0,0 +1,16 @@
++//
++//  Chess.h
++//  DesignPattern
++//
++//  Created by 于鸿鹏 on 2021/3/23.
++//
++
++#import "Game.h"
++
++NS_ASSUME_NONNULL_BEGIN
++
++@interface Chess : NSObject <GameProtocol>
++
++@end
++
++NS_ASSUME_NONNULL_END
+diff --git a/DesignPattern/DesignPattern/算法封装/模版方法/Chess.m b/DesignPattern/DesignPattern/算法封装/模版方法/Chess.m
+new file mode 100644
+index 0000000..5ae0134
+--- /dev/null
++++ b/DesignPattern/DesignPattern/算法封装/模版方法/Chess.m
+@@ -0,0 +1,37 @@
++//
++//  Chess.m
++//  DesignPattern
++//
++//  Created by 于鸿鹏 on 2021/3/23.
++//
++
++#import "Chess.h"
++
++@implementation Chess
++
++/// 初始化游戏
++- (void)initGame {
++    NSLog(@"Chess initGame");
++}
++
++/// 保存
++- (void)save {
++    NSLog(@"Chess save");
++}
++
++/// 暂停
++- (void)pause {
++    NSLog(@"Chess pause");
++}
++
++/// 开始游戏
++- (void)startPlay {
++    NSLog(@"Chess startPlay");
++}
++
++/// 退出
++- (void)exitGame {
++    NSLog(@"Chess exitGame");
++}
++
++@end
+diff --git a/DesignPattern/DesignPattern/算法封装/模版方法/FootballGame.h b/DesignPattern/DesignPattern/算法封装/模版方法/FootballGame.h
+new file mode 100644
+index 0000000..fe1730a
+--- /dev/null
++++ b/DesignPattern/DesignPattern/算法封装/模版方法/FootballGame.h
+@@ -0,0 +1,16 @@
++//
++//  FootballGame.h
++//  DesignPattern
++//
++//  Created by 于鸿鹏 on 2021/3/23.
++//
++
++#import "Game.h"
++
++NS_ASSUME_NONNULL_BEGIN
++
++@interface FootballGame : NSObject <GameProtocol>
++
++@end
++
++NS_ASSUME_NONNULL_END
+diff --git a/DesignPattern/DesignPattern/算法封装/模版方法/FootballGame.m b/DesignPattern/DesignPattern/算法封装/模版方法/FootballGame.m
+new file mode 100644
+index 0000000..bd48a49
+--- /dev/null
++++ b/DesignPattern/DesignPattern/算法封装/模版方法/FootballGame.m
+@@ -0,0 +1,37 @@
++//
++//  FootballGame.m
++//  DesignPattern
++//
++//  Created by 于鸿鹏 on 2021/3/23.
++//
++
++#import "FootballGame.h"
++
++@implementation FootballGame
++
++/// 初始化游戏
++- (void)initGame {
++    NSLog(@"FootballGame initGame");
++}
++
++/// 保存
++- (void)save {
++    NSLog(@"FootballGame save");
++}
++
++/// 暂停
++- (void)pause {
++    NSLog(@"FootballGame pause");
++}
++
++/// 开始游戏
++- (void)startPlay {
++    NSLog(@"FootballGame startPlay");
++}
++
++/// 退出
++- (void)exitGame {
++    NSLog(@"FootballGame exitGame");
++}
++
++@end
+diff --git a/DesignPattern/DesignPattern/算法封装/模版方法/Game.h b/DesignPattern/DesignPattern/算法封装/模版方法/Game.h
+new file mode 100644
+index 0000000..52219dc
+--- /dev/null
++++ b/DesignPattern/DesignPattern/算法封装/模版方法/Game.h
+@@ -0,0 +1,34 @@
++//
++//  Game.h
++//  DesignPattern
++//
++//  Created by 于鸿鹏 on 2021/3/23.
++//
++
++#import <Foundation/Foundation.h>
++#import "GameProtocol.h"
++
++
++NS_ASSUME_NONNULL_BEGIN
++
++/// 基类
++@interface Game : NSObject
++
++/// 初始化游戏
++- (void)initGame;
++
++/// 保存
++- (void)save;
++
++/// 暂停
++- (void)pause;
++
++/// 开始游戏
++- (void)startPlay;
++
++/// 退出
++- (void)exitGame;
++
++@end
++
++NS_ASSUME_NONNULL_END
+diff --git a/DesignPattern/DesignPattern/算法封装/模版方法/Game.m b/DesignPattern/DesignPattern/算法封装/模版方法/Game.m
+new file mode 100644
+index 0000000..e6df921
+--- /dev/null
++++ b/DesignPattern/DesignPattern/算法封装/模版方法/Game.m
+@@ -0,0 +1,37 @@
++//
++//  Game.m
++//  DesignPattern
++//
++//  Created by 于鸿鹏 on 2021/3/23.
++//
++
++#import "Game.h"
++
++@implementation Game
++
++/// 初始化游戏
++- (void)initGame {
++    
++}
++
++/// 保存
++- (void)save {
++    
++}
++
++/// 暂停
++- (void)pause {
++    
++}
++
++/// 开始游戏
++- (void)startPlay {
++    
++}
++
++/// 退出
++- (void)exitGame {
++    
++}
++
++@end
+diff --git a/DesignPattern/DesignPattern/算法封装/模版方法/GameProtocol.h b/DesignPattern/DesignPattern/算法封装/模版方法/GameProtocol.h
+new file mode 100644
+index 0000000..efec870
+--- /dev/null
++++ b/DesignPattern/DesignPattern/算法封装/模版方法/GameProtocol.h
+@@ -0,0 +1,34 @@
++//
++//  GameProtocol.h
++//  DesignPattern
++//
++//  Created by 于鸿鹏 on 2021/3/23.
++//
++
++#import <Foundation/Foundation.h>
++
++NS_ASSUME_NONNULL_BEGIN
++
++/// 将基类中的方法抽取为协议
++@protocol GameProtocol <NSObject>
++
++@required
++
++/// 初始化游戏
++- (void)initGame;
++
++/// 保存
++- (void)save;
++
++/// 暂停
++- (void)pause;
++
++/// 开始游戏
++- (void)startPlay;
++
++/// 退出
++- (void)exitGame;
++
++@end
++
++NS_ASSUME_NONNULL_END
+diff --git a/DesignPattern/DesignPattern/算法封装/模版方法/TemplateDemoViewController.h b/DesignPattern/DesignPattern/算法封装/模版方法/TemplateDemoViewController.h
+new file mode 100644
+index 0000000..d0e9022
+--- /dev/null
++++ b/DesignPattern/DesignPattern/算法封装/模版方法/TemplateDemoViewController.h
+@@ -0,0 +1,16 @@
++//
++//  TemplateDemoViewController.h
++//  DesignPattern
++//
++//  Created by 于鸿鹏 on 2021/3/23.
++//
++
++#import <UIKit/UIKit.h>
++
++NS_ASSUME_NONNULL_BEGIN
++
++@interface TemplateDemoViewController : UIViewController
++
++@end
++
++NS_ASSUME_NONNULL_END
+diff --git a/DesignPattern/DesignPattern/算法封装/模版方法/TemplateDemoViewController.m b/DesignPattern/DesignPattern/算法封装/模版方法/TemplateDemoViewController.m
+new file mode 100644
+index 0000000..63f8725
+--- /dev/null
++++ b/DesignPattern/DesignPattern/算法封装/模版方法/TemplateDemoViewController.m
+@@ -0,0 +1,46 @@
++//
++//  TemplateDemoViewController.m
++//  DesignPattern
++//
++//  Created by 于鸿鹏 on 2021/3/23.
++//
++
++#import "TemplateDemoViewController.h"
++#import "FootballGame.h"
++#import "Chess.h"
++
++@interface TemplateDemoViewController ()
++
++@end
++
++@implementation TemplateDemoViewController
++
++- (void)viewDidLoad {
++    [super viewDidLoad];
++    
++    FootballGame *game = [[FootballGame alloc] init];
++    [game initGame];
++    [game startPlay];
++    [game pause];
++    [game save];
++    [game exitGame];
++    
++    Chess *chessGame = [[Chess alloc] init];
++    [chessGame initGame];
++    [chessGame startPlay];
++    [chessGame pause];
++    [chessGame save];
++    [chessGame exitGame];
++}
++
++/*
++#pragma mark - Navigation
++
++// In a storyboard-based application, you will often want to do a little preparation before navigation
++- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
++    // Get the new view controller using [segue destinationViewController].
++    // Pass the selected object to the new view controller.
++}
++*/
++
++@end
+diff --git a/DesignPattern/ViewController.m b/DesignPattern/ViewController.m
+index 034f9c6..3899fb8 100644
+--- a/DesignPattern/ViewController.m
++++ b/DesignPattern/ViewController.m
+@@ -46,11 +46,13 @@
+         },
+         
+         @{@"category": @"对象状态",
+-          @"demo": @[@"MementoDemoViewController"]
++          @"demo": @[@"MementoDemoViewController",
++                     ]
+           
+         },
+         @{@"category": @"算法封装",
+-          @"demo": @[@"StrategyDemoViewController"]
++          @"demo": @[@"StrategyDemoViewController",
++                     @"TemplateDemoViewController"]
+           
+         },
+         @{@"category": @"行为扩展",
+-- 
+2.27.0
+

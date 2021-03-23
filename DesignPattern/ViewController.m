@@ -46,11 +46,13 @@
         },
         
         @{@"category": @"对象状态",
-          @"demo": @[@"MementoDemoViewController"]
+          @"demo": @[@"MementoDemoViewController",
+                     ]
           
         },
         @{@"category": @"算法封装",
-          @"demo": @[@"StrategyDemoViewController"]
+          @"demo": @[@"StrategyDemoViewController",
+                     @"TemplateDemoViewController"]
           
         },
         @{@"category": @"行为扩展",

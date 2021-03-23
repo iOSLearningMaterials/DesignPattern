@@ -25,6 +25,10 @@
 		73597344260A284C001F0317 /* InputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 73597343260A284C001F0317 /* InputValidator.m */; };
 		73597350260A2ABD001F0317 /* EmailInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7359734F260A2ABD001F0317 /* EmailInputValidator.m */; };
 		73597359260A2C4C001F0317 /* PhoneNumberValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 73597358260A2C4C001F0317 /* PhoneNumberValidator.m */; };
+		7359735F260A33DA001F0317 /* TemplateDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7359735E260A33DA001F0317 /* TemplateDemoViewController.m */; };
+		73597365260A33F0001F0317 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 73597364260A33F0001F0317 /* Game.m */; };
+		7359736B260A3405001F0317 /* FootballGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7359736A260A3405001F0317 /* FootballGame.m */; };
+		73597372260A3545001F0317 /* Chess.m in Sources */ = {isa = PBXBuildFile; fileRef = 73597371260A3545001F0317 /* Chess.m */; };
 		73A3B8382600F82400A28CB7 /* StrategyDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A3B8372600F82400A28CB7 /* StrategyDemoViewController.m */; };
 		73A3B97E2608C67000A28CB7 /* EtyeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A3B97D2608C67000A28CB7 /* EtyeValue.m */; };
 		73A3B9842608C93900A28CB7 /* AbstractEtypeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A3B9832608C93900A28CB7 /* AbstractEtypeValue.m */; };
@@ -144,6 +148,15 @@
 		7359734F260A2ABD001F0317 /* EmailInputValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmailInputValidator.m; sourceTree = "<group>"; };
 		73597357260A2C4C001F0317 /* PhoneNumberValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneNumberValidator.h; sourceTree = "<group>"; };
 		73597358260A2C4C001F0317 /* PhoneNumberValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneNumberValidator.m; sourceTree = "<group>"; };
+		7359735D260A33DA001F0317 /* TemplateDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemplateDemoViewController.h; sourceTree = "<group>"; };
+		7359735E260A33DA001F0317 /* TemplateDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemplateDemoViewController.m; sourceTree = "<group>"; };
+		73597363260A33F0001F0317 /* Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		73597364260A33F0001F0317 /* Game.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		73597369260A3405001F0317 /* FootballGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FootballGame.h; sourceTree = "<group>"; };
+		7359736A260A3405001F0317 /* FootballGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FootballGame.m; sourceTree = "<group>"; };
+		73597370260A3545001F0317 /* Chess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chess.h; sourceTree = "<group>"; };
+		73597371260A3545001F0317 /* Chess.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chess.m; sourceTree = "<group>"; };
+		73597376260A3721001F0317 /* GameProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameProtocol.h; sourceTree = "<group>"; };
 		73A3B8362600F82400A28CB7 /* StrategyDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrategyDemoViewController.h; sourceTree = "<group>"; };
 		73A3B8372600F82400A28CB7 /* StrategyDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrategyDemoViewController.m; sourceTree = "<group>"; };
 		73A3B97C2608C67000A28CB7 /* EtyeValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EtyeValue.h; sourceTree = "<group>"; };
@@ -876,6 +889,15 @@
 		73C9948125EF8DAA008E2E25 /* 模版方法 */ = {
 			isa = PBXGroup;
 			children = (
+				7359735D260A33DA001F0317 /* TemplateDemoViewController.h */,
+				7359735E260A33DA001F0317 /* TemplateDemoViewController.m */,
+				73597363260A33F0001F0317 /* Game.h */,
+				73597364260A33F0001F0317 /* Game.m */,
+				73597369260A3405001F0317 /* FootballGame.h */,
+				7359736A260A3405001F0317 /* FootballGame.m */,
+				73597370260A3545001F0317 /* Chess.h */,
+				73597371260A3545001F0317 /* Chess.m */,
+				73597376260A3721001F0317 /* GameProtocol.h */,
 			);
 			path = "模版方法";
 			sourceTree = "<group>";
@@ -1110,15 +1132,19 @@
 				73C992BD25EF85CB008E2E25 /* Prototype_BaseCopyObject.m in Sources */,
 				73597359260A2C4C001F0317 /* PhoneNumberValidator.m in Sources */,
 				73C992C025EF85CB008E2E25 /* Wheel.m in Sources */,
+				73597372260A3545001F0317 /* Chess.m in Sources */,
 				73C994C025EF8DAB008E2E25 /* AdapterViewController.m in Sources */,
 				7342DB4625FF016C00A921ED /* MementoModel.m in Sources */,
 				73E7AA4525F7C3EB003F552D /* LinkedList.m in Sources */,
+				7359735F260A33DA001F0317 /* TemplateDemoViewController.m in Sources */,
 				73A3B97E2608C67000A28CB7 /* EtyeValue.m in Sources */,
 				73C992BA25EF85CB008E2E25 /* BasePhone.m in Sources */,
 				73B9A4F225FA5CAB005CCBFF /* SubscriptionServiceCenter.m in Sources */,
+				73597365260A33F0001F0317 /* Game.m in Sources */,
 				73C99A5925F12E47008E2E25 /* PSPSystem.m in Sources */,
 				73C992BF25EF85CB008E2E25 /* Prototype_CopyObject2.m in Sources */,
 				73C994C225EF8DAB008E2E25 /* NormalModel2Adapter.m in Sources */,
+				7359736B260A3405001F0317 /* FootballGame.m in Sources */,
 				73C992B225EF85CA008E2E25 /* BaseFactory.m in Sources */,
 				730EFD1525FB39F1009725A1 /* AbstractMediator.m in Sources */,
 				73296CF925FF08EB00497312 /* NSObject+MementoCenter.m in Sources */,
