@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6B0B08B76CD6350BB88B6478 /* DesignPattern_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AA7E9E48C0D60BFCD9047F /* DesignPattern_Extension.swift */; };
+		730AF9862644395F00C8FD45 /* LightCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 730AF9852644395F00C8FD45 /* LightCommand.m */; };
 		730EFCFF25FB0D6C009725A1 /* DesignNameCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 730EFCFD25FB0D6C009725A1 /* DesignNameCell.m */; };
 		730EFD0025FB0D6C009725A1 /* DesignNameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 730EFCFE25FB0D6C009725A1 /* DesignNameCell.xib */; };
 		730EFD0825FB3850009725A1 /* MediatorDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 730EFD0625FB3850009725A1 /* MediatorDemoViewController.m */; };
@@ -18,6 +19,8 @@
 		730EFD2225FB4629009725A1 /* TextFieldColleague.m in Sources */ = {isa = PBXBuildFile; fileRef = 730EFD2125FB4629009725A1 /* TextFieldColleague.m */; };
 		730EFDA825FB6A5C009725A1 /* MementoCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 730EFDA725FB6A5C009725A1 /* MementoCenter.m */; };
 		73296CF925FF08EB00497312 /* NSObject+MementoCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 73296CF825FF08EB00497312 /* NSObject+MementoCenter.m */; };
+		732B8D7426135A6A00006151 /* Receiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 732B8D7326135A6A00006151 /* Receiver.m */; };
+		732B8D8426135FA500006151 /* Invoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 732B8D8326135FA500006151 /* Invoker.m */; };
 		7342DB2B25FEFB9300A921ED /* FastCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7342DB2925FEFB9300A921ED /* FastCoder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7342DB4025FF001600A921ED /* MementoDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7342DB3F25FF001600A921ED /* MementoDemoView.m */; };
 		7342DB4625FF016C00A921ED /* MementoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7342DB4525FF016C00A921ED /* MementoModel.m */; };
@@ -29,6 +32,8 @@
 		73597365260A33F0001F0317 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 73597364260A33F0001F0317 /* Game.m */; };
 		7359736B260A3405001F0317 /* FootballGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7359736A260A3405001F0317 /* FootballGame.m */; };
 		73597372260A3545001F0317 /* Chess.m in Sources */ = {isa = PBXBuildFile; fileRef = 73597371260A3545001F0317 /* Chess.m */; };
+		7359737C260A39C5001F0317 /* CommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7359737B260A39C5001F0317 /* CommandViewController.m */; };
+		737AD68E26157478000CF5BE /* DarkCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 737AD68D26157478000CF5BE /* DarkCommand.m */; };
 		73A3B8382600F82400A28CB7 /* StrategyDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A3B8372600F82400A28CB7 /* StrategyDemoViewController.m */; };
 		73A3B97E2608C67000A28CB7 /* EtyeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A3B97D2608C67000A28CB7 /* EtyeValue.m */; };
 		73A3B9842608C93900A28CB7 /* AbstractEtypeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A3B9832608C93900A28CB7 /* AbstractEtypeValue.m */; };
@@ -115,6 +120,8 @@
 		1F909370B88709470E62DA08 /* Pods-DesignPattern.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignPattern.release.xcconfig"; path = "Target Support Files/Pods-DesignPattern/Pods-DesignPattern.release.xcconfig"; sourceTree = "<group>"; };
 		29EE4D5B0908CA9E07F3F57A /* Pods_DesignPattern.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesignPattern.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3379F5CA8180BB4A0176FC /* DemoViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DemoViewController.swift; path = Source/DemoViewController.swift; sourceTree = "<group>"; };
+		730AF9842644395F00C8FD45 /* LightCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightCommand.h; sourceTree = "<group>"; };
+		730AF9852644395F00C8FD45 /* LightCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightCommand.m; sourceTree = "<group>"; };
 		730EFCFC25FB0D6C009725A1 /* DesignNameCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignNameCell.h; sourceTree = "<group>"; };
 		730EFCFD25FB0D6C009725A1 /* DesignNameCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignNameCell.m; sourceTree = "<group>"; };
 		730EFCFE25FB0D6C009725A1 /* DesignNameCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DesignNameCell.xib; sourceTree = "<group>"; };
@@ -134,6 +141,11 @@
 		730EFDAC25FB6A9C009725A1 /* MementoCenterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MementoCenterProtocol.h; sourceTree = "<group>"; };
 		73296CF725FF08EB00497312 /* NSObject+MementoCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MementoCenter.h"; sourceTree = "<group>"; };
 		73296CF825FF08EB00497312 /* NSObject+MementoCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MementoCenter.m"; sourceTree = "<group>"; };
+		732B8D7226135A6A00006151 /* Receiver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Receiver.h; sourceTree = "<group>"; };
+		732B8D7326135A6A00006151 /* Receiver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Receiver.m; sourceTree = "<group>"; };
+		732B8D7E26135B2100006151 /* CommandProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandProtocol.h; sourceTree = "<group>"; };
+		732B8D8226135FA500006151 /* Invoker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Invoker.h; sourceTree = "<group>"; };
+		732B8D8326135FA500006151 /* Invoker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Invoker.m; sourceTree = "<group>"; };
 		7342DB2925FEFB9300A921ED /* FastCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastCoder.m; sourceTree = "<group>"; };
 		7342DB2A25FEFB9300A921ED /* FastCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastCoder.h; sourceTree = "<group>"; };
 		7342DB3E25FF001600A921ED /* MementoDemoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MementoDemoView.h; sourceTree = "<group>"; };
@@ -157,6 +169,10 @@
 		73597370260A3545001F0317 /* Chess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chess.h; sourceTree = "<group>"; };
 		73597371260A3545001F0317 /* Chess.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chess.m; sourceTree = "<group>"; };
 		73597376260A3721001F0317 /* GameProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameProtocol.h; sourceTree = "<group>"; };
+		7359737A260A39C5001F0317 /* CommandViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandViewController.h; sourceTree = "<group>"; };
+		7359737B260A39C5001F0317 /* CommandViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandViewController.m; sourceTree = "<group>"; };
+		737AD68C26157478000CF5BE /* DarkCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DarkCommand.h; sourceTree = "<group>"; };
+		737AD68D26157478000CF5BE /* DarkCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkCommand.m; sourceTree = "<group>"; };
 		73A3B8362600F82400A28CB7 /* StrategyDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrategyDemoViewController.h; sourceTree = "<group>"; };
 		73A3B8372600F82400A28CB7 /* StrategyDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrategyDemoViewController.m; sourceTree = "<group>"; };
 		73A3B97C2608C67000A28CB7 /* EtyeValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EtyeValue.h; sourceTree = "<group>"; };
@@ -905,6 +921,17 @@
 		73C9948225EF8DAA008E2E25 /* 命令 */ = {
 			isa = PBXGroup;
 			children = (
+				732B8D7E26135B2100006151 /* CommandProtocol.h */,
+				7359737A260A39C5001F0317 /* CommandViewController.h */,
+				7359737B260A39C5001F0317 /* CommandViewController.m */,
+				737AD68C26157478000CF5BE /* DarkCommand.h */,
+				737AD68D26157478000CF5BE /* DarkCommand.m */,
+				730AF9842644395F00C8FD45 /* LightCommand.h */,
+				730AF9852644395F00C8FD45 /* LightCommand.m */,
+				732B8D8226135FA500006151 /* Invoker.h */,
+				732B8D8326135FA500006151 /* Invoker.m */,
+				732B8D7226135A6A00006151 /* Receiver.h */,
+				732B8D7326135A6A00006151 /* Receiver.m */,
 			);
 			path = "命令";
 			sourceTree = "<group>";
@@ -1146,7 +1173,10 @@
 				73C994C225EF8DAB008E2E25 /* NormalModel2Adapter.m in Sources */,
 				7359736B260A3405001F0317 /* FootballGame.m in Sources */,
 				73C992B225EF85CA008E2E25 /* BaseFactory.m in Sources */,
+				7359737C260A39C5001F0317 /* CommandViewController.m in Sources */,
 				730EFD1525FB39F1009725A1 /* AbstractMediator.m in Sources */,
+				732B8D8426135FA500006151 /* Invoker.m in Sources */,
+				732B8D7426135A6A00006151 /* Receiver.m in Sources */,
 				73296CF925FF08EB00497312 /* NSObject+MementoCenter.m in Sources */,
 				73A3B8382600F82400A28CB7 /* StrategyDemoViewController.m in Sources */,
 				73C992B425EF85CA008E2E25 /* FactoryManager.m in Sources */,
@@ -1190,6 +1220,7 @@
 				73C994C325EF8DAB008E2E25 /* NormalModelAdapter.m in Sources */,
 				73C992C225EF85CB008E2E25 /* Engine.m in Sources */,
 				730EFD1B25FB4222009725A1 /* AbstractColleague.m in Sources */,
+				730AF9862644395F00C8FD45 /* LightCommand.m in Sources */,
 				73C992B525EF85CA008E2E25 /* BaseWatch.m in Sources */,
 				73C992B325EF85CA008E2E25 /* AbstractFactoryDemo.m in Sources */,
 				7342DB2B25FEFB9300A921ED /* FastCoder.m in Sources */,
@@ -1198,6 +1229,7 @@
 				73B9A4EC25FA5C96005CCBFF /* ObserverViewController.m in Sources */,
 				73C994C525EF8DAB008E2E25 /* BusinessCardView.m in Sources */,
 				73C99B7825F1E440008E2E25 /* Target_DesignPattern.m in Sources */,
+				737AD68E26157478000CF5BE /* DarkCommand.m in Sources */,
 				927B812297B7F27DC1FA37DA /* DemoViewController.swift in Sources */,
 				73C992BB25EF85CB008E2E25 /* Prototype_Student.m in Sources */,
 				73C992BC25EF85CB008E2E25 /* Prototype_bussiness.m in Sources */,

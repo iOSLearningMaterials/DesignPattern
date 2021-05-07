@@ -52,7 +52,8 @@
         },
         @{@"category": @"算法封装",
           @"demo": @[@"StrategyDemoViewController",
-                     @"TemplateDemoViewController"]
+                     @"TemplateDemoViewController",
+                     @"CommandViewController"]
           
         },
         @{@"category": @"行为扩展",
